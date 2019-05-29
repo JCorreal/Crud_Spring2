@@ -1,0 +1,7 @@
+CREATE TABLE `crudspring` (
+  `Id` int(11) NOT NULL AUTO_INCREMENT,
+  `Name` varchar(100) NOT NULL,
+  `Salary` float NOT NULL,
+  `Designation` varchar(100) NOT NULL,
+  PRIMARY KEY (`Id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
